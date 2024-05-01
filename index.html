@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viola Shop</title>
+    <link rel="shortcut icon" type="image" href="image/lg.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <!-- bootstrap links -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- bootstrap links -->
+    <!-- fonts links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <!-- fonts links -->
+</head>
+<body>
+
+     <!-- top navbar -->
+     <div class="top-navbar">
+        <div class="top-icons">
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-instagram"></i>
+        </div>
+        <div class="other-links">
+            <button id="btn-login"><a href="login.html">Login</a></button>
+            <button id="btn-signup"><a href="signup.html">Sign up</a></button>
+            <i class="fa-solid fa-user"></i>
+            <i class="fa-solid fa-cart-shopping"></i>
+        </div>
+    </div>
+    <!-- top navbar -->
+    <!-- navbar -->
+        <nav class="navbar navbar-expand-lg" id="navbar">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html"><img src="./image/ViolaShop-removebg-preview.png" alt="" width="180px"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Category
+                      </a>
+                      <ul class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: #aaaaff;">
+                        <li><a class="dropdown-item" href="index.html">Luxcrime</a></li>
+                        <li><a class="dropdown-item" href="index.html">Barenbliss</a></li>
+                        <li><a class="dropdown-item" href="index.html">Implora</a></li>
+                        <li><a class="dropdown-item" href="index.html">Make Over</a></li>
+                        <li><a class="dropdown-item" href="index.html">Pink Flash</a></li>
+                        <li><a class="dropdown-item" href="index.html">Sea Makeup</a></li>
+                      </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="about.html">About Us</a>
+                  </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact Us</a>
+                  </li>
+                </ul>
+               
+                <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit" id="search-btn">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+        <!-- navbar -->
+        <!-- home content -->
+        <section class="home">
+            <div class="content">
+                <h3>Biggest MakeUp Sale
+                    <br> <span>Up To 50% Off</span>
+                </h3>
+                <p>Promo ini hanya berlaku pada bulan ini saja! Segera jangan sampai ketinggalan!</p>
+                <a href="index.html"><button id="shopnow">Shop Now</button></a>
+            </div>
+            <div class="img">
+                <img src="image/bg-1.png" alt="g" >
+            </div>
+        </section>
+        <!-- home content -->
+    </div>
+    <!-- top cards -->
+    <div class="container" id="top-cards">
+        <div class="row">
+            <div class="col-md-4 py-3 py-md-0">
+                <div class="card" style="background-color: #a9a9a926;">
+                    <img src="image/bg-2.png" alt="">
+                    <div class="card-img-overlay">
+                        <h5 class="card-titel">Lip Product</h5>
+                        <p>Promo untuk pembelian lip product mendapatkan diskon 50%!</p>
+                        <a href="index.html"><button>Order Now</button></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-5 py-3 py-md-0">
+                <div class="card" style="background-color: #a9a9a926;">
+                    <img src="./image/bg-3.png" alt="" >
+                    <div class="card-img-overlay">
+                        <h5 class="card-titel">Tools Makeup</h5>
+                        <p>Dengan pembelihan melebihi 400 ribu akan mendapatkan random tools makeup!!</p>
+                        <button>Order Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 py-3 py-md-0">
+                <div class="card" style="background-color: #a9a9a926;">
+                    <img src="image/bg-4.png" alt="">
+                    <div class="card-img-overlay">
+                        <h5 class="card-titel">Eye Shadow</h5>
+                        <p>Promo cepat pembelian eyeshadow pinkflash dengan harga terjangkau</p>
+                        <p><strong>Rp. 70.0000 <strike> Rp. 50.000</strike></strong></p>
+                        <button>Order Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- top cards -->
+    
+
+    <!-- banner -->
+    <div class="banner">
+        <div class="content">
+            <h1>Get Up To 50% Off</h1>
+            <p>Gunakan Voucher Promo dan Dapatkan Barang Impianmu</p>
+            <div id="bannerbtn"><button>SHOP NOW</button></div>
+        </div>
+    </div>
+    <!-- banner -->
+
+    <!-- product cards -->
+    <div class="container" id="product-cards">
+        <h1 class="text-center">PRODUCT</h1>
+        <div class="row" style="margin-top: 30px;">
+            <div class="col-md-3 py-3 py-md-0">
+                <div class="card">
+                    <img src="image/imp-1.jpg" alt="">
+                    <div class="card-body">
+                        <h3>Implora Liptint</h3>
+                        <p>Tinted yang melembabkan kulit bibir</p>
+                        <div class="star">
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                        </div>
+                        <h5>Rp. 30.000 <strike>Rp. 25.000</strike> <span><i class="fa-solid fa-cart-shopping"></i></span></h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 py-3 py-md-0">
+                <div class="card">
+                    <img src="image/mk-1.jpg" alt="">
+                    <div class="card-body">
+                        <h3>Make Over Eyeshadow</h3>
+                        <p>Dengan warna yang bervariasi</p>
+                        <div class="star">
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                        </div>
+                        <h5>Rp. 115.000 <strike>Rp. 100.000</strike> <span><i class="fa-solid fa-cart-shopping"></i></span></h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 py-3 py-md-0">
+                <div class="card">
+                    <img src="image/sm-3.jpg" alt="">
+                    <div class="card-body">
+                        <h3>Eyebrow Sea Makeup</h3>
+                        <p>Eyebrow dengan tip yang simple dan mudah.</p>
+                        <div class="star">
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                        </div>
+                        <h5>Rp. 90.000<strike>Rp.  67.000</Rp></strike> <span><i class="fa-solid fa-cart-shopping"></i></span></h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 py-3 py-md-0">
+                <div class="card">
+                    <img src="image/lx-1.jpg" alt="">
+                    <div class="card-body">
+                        <h3>Foundation Luxcrime</h3>
+                        <p>Foundation dengan berbagai warna.</p>
+                        <div class="star">
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                        </div>
+                        <h5>Rp. 89.000</Rp> <strike>Rp. 70.000</Rp></strike> <span><i class="fa-solid fa-cart-shopping"></i></span></h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row" style="margin-top: 30px;">
+            <div class="col-md-3 py-3 py-md-0">
+                <div class="card">
+                    <img src="image/mk-2.jpg" alt="">
+                    <div class="card-body">
+                        <h3>Lip Cream Make Over</h3>
+                        <p>Membuat bibir anda menjadi fresh</p>
+                        <div class="star">
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                        </div>
+                        <h5>Rp. 100.000</Rp> <strike>Rp. 90.000</Rp></strike> <span><i class="fa-solid fa-cart-shopping"></i></span></h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 py-3 py-md-0">
+                <div class="card">
+                    <img src="image/pk-2.jpg" alt="">
+                    <div class="card-body">
+                        <h3>Eyeshadow Pinkflash</h3>
+                        <p>Eyeshadow ala korea.</p>
+                        <div class="star">
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                        </div>
+                        <h5>Rp. 70.000</rp><strike>Rp. 50.000</Rp></strike> <span><i class="fa-solid fa-cart-shopping"></i></span></h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 py-3 py-md-0">
+                <div class="card">
+                    <img src="image/br-1.jpg" alt="">
+                    <div class="card-body">
+                        <h3>Foundation Barenbliss</h3>
+                        <p>Two in one foundation dan concealer dalam satu wadah.</p>
+                        <div class="star">
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                        </div>
+                        <h5>Rp. 80.000</rp> <strike>Rp. 50.000</rp></strike> <span><i class="fa-solid fa-cart-shopping"></i></span></h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 py-3 py-md-0 ">
+                <div class="card">
+                    <img src="image/imp-2.jpg" alt="">
+                    <div class="card-body">
+                        <h3>Lipstik Implora</h3>
+                        <p>Lipstik awet dan tahan lama</p>
+                        <div class="star">
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                        </div>
+                        <h5>Rp. 45.000</Rp><strike>Rp. 35.000</Rp></strike> <span><i class="fa-solid fa-cart-shopping"></i></span></h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- product cards -->
+
+    <!-- product -->
+    <div class="container" style="margin-top: 100px;">
+    <hr>
+</div>
+<div class="container">
+    <h3 style="font-weight: bold;">PRODUCT.</h3>
+    <p>Viola Shop memberikan produk berkualitas tinggi, Violashop juga berkomitmen untuk memberikan kembali kepada masyarakat. Mereka aktif dalam berbagai program amal yang mendukung wanita dan remaja dalam mencapai potensi mereka, mempromosikan pesan positif tentang kecantikan yang sehat dan berkelanjutan.Salah satu pilar keberhasilan Violashop adalah fokus tak henti-hentinya pada inovasi. Dari formula revolusioner hingga desain kemasan yang memukau, setiap produk diciptakan dengan teliti untuk memenuhi kebutuhan dan harapan pelanggan!</p>
+
+    <hr>
+</div>
+    <!-- product -->
+
+
+<!-- offer -->
+    <div class="container" id="offer">
+        <div class="row">
+            <div class="col-md-4 py-3 py-md-0">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <h5>Free Shipping</h5>
+                <p>On order over $100</p>
+            </div>
+            <div class="col-md-4 py-3 py-md-0">
+                <i class="fa-solid fa-truck"></i>
+                <h5>Fast Delivery</h5>
+                <p>World wide</p>
+            </div>
+            <div class="col-md-4 py-3 py-md-0">
+                <i class="fa-solid fa-thumbs-up"></i>
+                <h5>Big Choice</h5>
+                <p>Of product</p>
+            </div>
+        </div>
+    </div>
+<!-- offer -->
+<!-- footer -->
+<footer id="footer" style="margin-top: 50px;">
+    <div class="footer-top">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 footer-content">
+                    <h3>Fashion</h3>
+                    <p>Fashion brand ternama, terkenal, terjamin keasliannya</p>
+                    <p>
+                        Gorang-gareng <br>
+                        Nguntoronadi <br>
+                        Magetan <br>
+                    </p>
+                    <strong><i class="fas fa-phone"></i> Phone: <strong>+6289637854977</strong></strong><br>
+                    <strong><i class="fa-solid fa-envelope"></i> Email: <strong>Violashop@gmail.com</strong></strong>
+                </div>
+                <div class="col-lg-3 col-md-6 footer-links">
+                    <h4>Usefull Links</h4>
+                    <ul>
+                      <li><a href="index.html">Home</a></li>
+                      <li><a href="about.html">About</a></li>
+                      <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 footer-links">
+                    <h4>Our Social Network</h4>
+                    <p>Hubungi kami bila diperlukan melalui link dibawah</p>
+                    <div class="socail-links mt-3">
+                        <a href="#" class="twiiter"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#" class="twiiter"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#" class="twiiter"><i class="fa-brands fa-google-plus"></i></a>
+                        <a href="#" class="twiiter"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#" class="twiiter"><i class="fa-brands fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="container py-4">
+        <div class="copyright">
+            &copy; Copyright <strong>Make Up</strong>.All Rights Reserved
+        </div>
+        <div class="credits">
+            Designed By <a href="#">Viola</a>
+        </div>
+    </div>
+    </footer>
+    <!-- footer -->
+    
+    <a href="#" class="arrow"><i><img src="./image/up-arrow.png" alt="" width="50px"></i></a>
+    
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    
+</body>
+</html>
